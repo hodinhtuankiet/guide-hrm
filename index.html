@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
@@ -7,22 +7,22 @@
   <title>Hướng dẫn sử dụng HRM - Lutech Digital</title>
   <style>
     :root {
-      --bg: #f3f7fd;
-      --bg-soft: #f8fbff;
+      --bg: #f5f7fa;
+      --bg-soft: #ffffff;
       --surface: #ffffff;
-      --surface-2: #f9fbff;
-      --text: #182133;
-      --muted: #64748b;
-      --line: #dce6f4;
-      --line-strong: #c8d6ee;
-      --primary: #1f6fe5;
-      --primary-dark: #165ec5;
-      --primary-soft: #eaf2ff;
+      --surface-2: #ffffff;
+      --text: #1a2540;
+      --muted: #6b7280;
+      --line: #e0e7ff;
+      --line-strong: #c7d2fe;
+      --primary: #0066cc;
+      --primary-dark: #0052a3;
+      --primary-soft: #e0edff;
       --success: #119c62;
       --warning: #f59e0b;
       --danger: #e14d4d;
-      --shadow: 0 18px 48px rgba(15, 35, 80, 0.08);
-      --shadow-soft: 0 10px 24px rgba(18, 38, 78, 0.06);
+      --shadow: 0 18px 48px rgba(0, 102, 204, 0.08);
+      --shadow-soft: 0 10px 24px rgba(0, 102, 204, 0.06);
       --radius-xl: 28px;
       --radius-lg: 20px;
       --radius-md: 16px;
@@ -37,10 +37,7 @@
       margin: 0;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(31, 111, 229, 0.08), transparent 24%),
-        radial-gradient(circle at top right, rgba(31, 111, 229, 0.06), transparent 20%),
-        linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      background: #f5f7fa;
       line-height: 1.6;
     }
 
@@ -88,19 +85,18 @@
     .brand-logo-wrap {
       width: 52px;
       height: 52px;
-      border-radius: 16px;
-      background: linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
-      border: 1px solid var(--line);
       display: grid;
       place-items: center;
-      box-shadow: var(--shadow-soft);
-      flex: 0 0 auto;
+      background: transparent;
+      border: none;
+      box-shadow: none;
     }
 
     .brand-logo {
-      width: 38px;
-      height: 38px;
+      width: 142px;
+      height: 52px;
       object-fit: contain;
+      display: block;
     }
 
     .brand-title {
@@ -138,7 +134,7 @@
     }
 
     .pill.primary {
-      background: linear-gradient(135deg, var(--primary) 0%, #3f8cff 100%);
+      background: var(--primary);
       border-color: transparent;
       color: #fff;
     }
@@ -151,7 +147,7 @@
       background:
         linear-gradient(135deg, rgba(24,100,224,0.99) 0%, rgba(43,128,255,0.97) 69%, rgba(232,242,255,0.98) 69.1%, rgba(255,255,255,0.99) 100%);
       box-shadow: var(--shadow);
-      border: 1px solid rgba(31,111,229,0.12);
+      border: 1px solid rgba(0,102,204,0.12);
       margin-top: 14px;
     }
 
@@ -259,7 +255,7 @@
       border: 1px solid var(--line);
       border-radius: 18px;
       padding: 14px;
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      background: #ffffff;
     }
 
     .mini-card strong {
@@ -343,8 +339,8 @@
       margin-top: 16px;
       padding: 14px;
       border-radius: 16px;
-      background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
-      border: 1px solid #dce8ff;
+      background: #f5f7fa;
+      border: 1px solid #e0e7ff;
       color: var(--muted);
       font-size: 13px;
     }
@@ -437,7 +433,7 @@
       border: 1px solid var(--line);
       border-radius: 22px;
       padding: 20px;
-      background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+      background: #ffffff;
     }
 
     .info-card h3 {
@@ -471,19 +467,19 @@
       padding: 16px;
       border-radius: 20px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+      background: #ffffff;
     }
 
     .step-number {
       width: 42px;
       height: 42px;
       border-radius: 16px;
-      background: linear-gradient(180deg, var(--primary) 0%, #4d97ff 100%);
+      background: var(--primary);
       color: #fff;
       display: grid;
       place-items: center;
       font-weight: 800;
-      box-shadow: 0 12px 24px rgba(31,111,229,0.18);
+      box-shadow: 0 12px 24px rgba(0,102,204,0.18);
     }
 
     .step h4 {
@@ -502,7 +498,7 @@
       border-radius: 20px;
       padding: 18px 20px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+      background: #f5f7fa;
       color: var(--text);
     }
 
@@ -531,7 +527,7 @@
       align-items: center;
       gap: 8px;
       padding: 12px 16px;
-      background: linear-gradient(180deg, #f7faff 0%, #eef4ff 100%);
+      background: #f5f7fa;
       border-bottom: 1px solid var(--line);
       color: var(--muted);
       font-size: 13px;
@@ -576,7 +572,7 @@
     .accordion details {
       border-radius: 18px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+      background: #ffffff;
       overflow: hidden;
     }
 
@@ -634,7 +630,7 @@
       padding: 14px 16px;
       border-radius: 18px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+      background: #ffffff;
     }
 
     .flow-row .icon {
@@ -670,7 +666,7 @@
     .role-panel {
       border-radius: 22px;
       border: 1px solid var(--line);
-      background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+      background: #ffffff;
       padding: 20px;
       height: 100%;
     }
@@ -694,7 +690,7 @@
       margin-top: 24px;
       padding: 18px 22px;
       border-radius: 22px;
-      background: linear-gradient(135deg, #11356d 0%, #1f6fe5 100%);
+      background: var(--primary);
       color: rgba(255,255,255,0.94);
       box-shadow: var(--shadow);
     }
@@ -818,17 +814,15 @@
   <div class="topbar">
     <div class="topbar-inner">
       <div class="brand">
-        <div class="brand-logo-wrap">
-          <img class="brand-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL4AAAAoCAYAAABAS0DDAAAIw0lEQVR4Aewby3ITR7B7dkWokIf5gsi3HLAtHylbYN+SXGJuBERFfAGqPM62T0kVlQK+QMJ2qNwgl+SoYJvKkZWTQ26YL8DcUiDtpHu1vR7Ju9IirQLWzta2enamp6df87YV2MdaIIcWsIGfQ6dblQFs4NsoyKUFbODn0u1W6VSB/81uu/rdflvHw6uaNaO1wGmzQKrAV6iLiYppXEssm4oCq8Q0WiBV4E+j4lanfFvABn6+/Z9b7W3g59b1+VbcBn6+/Z9b7W3g59b1GSp+ClnZwD+FTrMij2+BdzLwS9eapbkbu1WGUrU5M0hNpmEoVfZW4uhKV5tFLmcQXpxOA1yXec5VdteG0Se1f4Hkmr++W1u4/qQ+X9nbmLu2WxW+zJsh4k/t8Hc/pLUH842Tk2UorSXbkWWXev1tyzfz6NEjRtYS+Ur4sMxc1+QtZXGY6Zi+H5iP0CfRcJ00NEwnkCrwXddtaPDvxwEqnfkFlq/cNQWqzgBttyTCxmGmYfARNiDm6RScFS5nEF6cTgMd5QSdSQHeVaE8SVij+hqMh4NwobLfdBCbqNQdULqKiOvKUXVdKDTnK0/WhZx43iKoKyQ6yTSwb9rj37OJA0HbdYsBnz5ZHZJBf1h4wfKwXAbrIOkDVqUe9D0ceFyPefTogerhwo39Z/PX9w3/n50RPiwzszJ5S1kc9hP8p1XhjtBrxIfMMw6OaVSPH+JoOU/xzzD48SIe/rR8phoHt5fOeMPq562cg4uDGxBWIHr0c/o+Cj+LiHpj0AgW0mWLSB6S65nZ6QY1MPfV7pp23CbJ3dUDgeTv00PBnUnpwXaM2obgmcmqLXWBp2KagnkaNoGn5KAp+lnZeDHz+e2XtS9uv9x4U/jshxfJt77E+228re1lFEDHmRUZtNabks/4rweXGlLGWIN+zPnxsHSTaRgouJqEA70pwO+hc+58a7tcbG0tn0ftXwHEQ8rf9HbKfxDdRF6/499shXpiBxe5PWmI0kM7HQedctUdAAxmGKpzD9W52ZboAXgzjR4HO8vVVigHY9AgOh/yt8DBdrnbueD48V1n4/irm9I0a3ZT4/0qh6ZBJGb9wFOyBP/751QNeRpGtQ5vCKpQWDdEnPpkaLMg6AGw4W2Va15jkUZKCB5v59IjVO8vUv4JpwYEE/jxHix53B5qvSrsNflc0nE4DLoil1HQb1L9Wo8e20uNSerB+wWKuS+5faCBgrDYcIXL6HusV41VO2eVEdUn5qxopsUU6Kjob5covSn5JjYDyMyn9IzJU9KIeJnKxn7DGUZG3JXS1T+LSUwR1AJ0nyMK+thOOkCPbs0xfjuvHLZjMNvwLEGz8T1h57fdmqRHxWrUirmspzWtzXGdAvEEiD1Qw8dh+shrXDwM02nRTALvE8uAtAz76SiAHkd5bjsx8AEhOFTQoFtgPAuVvUPa1OpeeFI3SDJJ0oojWinwAKLc9l1iHIz6ZKNblB7rtYH/JuaTzR3o53ACTjDqjlYnsodlxPAO2h1WL3V5WrkkyKQjp25gXELedxKPoFNSx3vMA4jXWD3SANJpZ3jjTTQjv6c/8DUHCgCNArEOQo3ByAX8+OqI0ahAo2WrxZu7GBCe5KhohBzhBOIwjr/29T3hPy4mO3XXzczIbXuMEqBbpqHEG12hwba7gq+dWQbJyxor0NVjnviUOwIDaHwq+bTxHmvUV8LotGKNeOwgOqEy9WCHGY4+4k2eWT6JNBn0kfAl2eosg3wL5g1wqdpMGHmFKns8f2OfTmkgGEmBN940ikLCg4D3pYhOqeoir/fLxUMBKc8Ss73QuBNBgJpDBzAMtMneMNpaKV17cjyoGQVpkuSnNGRvj8YHWJsLb3FNzAZiqZTWvPbjJA0IWOeg4tFhjm4WtVt4SAWBo8lokSMpb6SXHPKJKYOZltGdN5A0M8gIXaSgaZoyzVd2G7R+rWu/0BQdRhJmSCVq47LIN1/Zu0tr8mdIQRRUo1MSXjcH6YQfj05tqCjaCOtO4ampx0Jlv0nlmb+d8NIwDWNf+bwB7iPV0U296M9Y/CPE73zgI2L3VrPvNlIMxIFGQS2nJ0VyeJ1HB0U3ixBu0IBnBfWBOVqI/m+GaXOr+uSQb22MUgc75ZoZ/KZMeExXhLNnJjnqR7exbENSNBgAgGxBN7CrvG6mvIEvOk5wVh8S9du2u+Gm/Qdqf+xBJWwDyFbrkqb2Z1vGHQCn0Xl9nsqDJSvrJTMR5ckb3dSLbxj7CD3+V2SIxJMHB5zuMkJhIg0MebTuRGveIaQjF/NxG4YXKj1M2CmoN+m8eXWSR289bYYfHPyBTKB79SeZtEa6DHIWvcZS175hnckh/VwD/EoBeqW1tUTtpjtt4s5B9LOBHjRL9Mhn6pHRRdyFyh53pqCDsrzcfk+b9OHR8owGFeloM/7rgrEfIIKUr6KgWOSNShzImvi3bz9qnHntzo4Cv3//cbQUSSkTUNBscO8eBP23qjw1B05yztHtqF5lffimlDvFoKBn40o73G6cjK2dclFokvHxza3wCGTaLpf45hbp8khkOthZqnG7QtfaWV4N+Ua3yFLGmOUKy5HX15wXB39TAApdLy4XD7aX1zy6PIurd2DcrsaVB3psLQUb2kF6sE7S7sFOuWeEFb6tAbqa8rO8UqcfE+9a1M7Py0F8yXcSPui7GVYcFGzMODAb/KflwSjwKV2SDAKzjSzSgT4UAKxPFvyy4PEuyjSKXmxTXloyHqV+ZnUyYKTS8OBNzXuFzrNJwPyN/egUJI0slsZaIAsLpAp8VFjMorF4HnqSG7z4Jm1u7i2QKvBzbyVrgKmzgA38qXOpVSiNBWzgp7GSpZk6C0x74E+dw6xC2VjABn42drRcTpkFbOCfModZcbOxQKrAJyL5Y6VsWjW4KIT/6doe7GMtEFmAYjpKJyb4ti7pKnjcfG+rPPa/kSUKbgusBRIskCrwE+ra7KmwQD6VsIGfT7/nXmsb+LkPgXwa4D8AAAD///IkR5sAAAAGSURBVAMAw64KnAIqbQkAAAAASUVORK5CYII=" alt="Lutech Digital" />
-        </div>
+          <img class="brand-logo" src="/Lutech-Logo.png" alt="Lutech Digital Logo" />
         <div>
           <p class="brand-title">Lutech Digital HRM Guide</p>
           <p class="brand-subtitle">Tài liệu onboarding dành cho nhân sự mới</p>
         </div>
       </div>
       <div class="topbar-actions">
-        <span class="pill">📘 Hướng dẫn nội bộ</span>
-        <span class="pill">👋 Dễ theo dõi</span>
+        <span class="pill">Hướng dẫn nội bộ</span>
+        <span class="pill">Dễ theo dõi</span>
         <span class="pill primary">Lutech Digital</span>
       </div>
     </div>
@@ -838,7 +832,7 @@
     <section class="hero">
       <div class="hero-grid">
         <div>
-          <div class="eyebrow">✨ Welcome onboard • Hệ thống HRM</div>
+          <div class="eyebrow">Welcome onboard • Hệ thống HRM</div>
           <h1>Hướng dẫn sử dụng hệ thống HRM dành cho nhân sự mới</h1>
           <p class="lead">
             Tài liệu này giúp bạn làm quen nhanh với các thao tác quan trọng trên hệ thống HRM của Lutech Digital:
@@ -1094,6 +1088,28 @@
                   <li>Nếu bạn là <strong>Leader Team</strong>, bạn có thể tạo OT cho thành viên trong team.</li>
                   <li>Điền rõ thời gian OT và lý do để thuận tiện cho việc xét duyệt.</li>
                 </ul>
+              </div>
+            </details>
+
+            <details>
+              <summary>
+                <span class="summary-text"><span class="icon">🚫</span> Request đi trễ</span>
+                <span>Chi tiết</span>
+              </summary>
+              <div class="content">
+                <p>Áp dụng khi bạn gặp các trường hợp bất khả kháng như: ốm, xe hư, tai nạn, thời tiết xấu,... và cần cung cấp minh chứng hợp lý.</p>
+                <p>Request này sẽ loại trừ lỗi đi trễ, tuy nhiên vẫn bị trừ giờ công thực tế.</p>
+              </div>
+            </details>
+
+            <details>
+              <summary>
+                <span class="summary-text"><span class="icon">🏠</span> Request về sớm</span>
+                <span>Chi tiết</span>
+              </summary>
+              <div class="content">
+                <p>Áp dụng cho các trường hợp phát sinh cần về sớm trong ngày và không sử dụng phép năm.</p>
+                <p>Thời gian về sớm sẽ được ghi nhận và trừ vào giờ công thực tế.</p>
               </div>
             </details>
 
